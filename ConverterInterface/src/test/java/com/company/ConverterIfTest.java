@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ConverterIfTest {
-    public static ConverterIf converterIf;
+    private ConverterIf converterIf;
     @Before
     public void resetConverterIf(){
         converterIf = new ConverterIf();

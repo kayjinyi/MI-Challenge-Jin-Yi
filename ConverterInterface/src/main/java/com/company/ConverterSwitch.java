@@ -41,7 +41,7 @@ public class ConverterSwitch  implements Converter{
                 return "Dec";
 
             default:
-                return "Out of month";
+                return "not a month";
         }
     }
 
